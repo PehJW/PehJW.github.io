@@ -1,0 +1,322 @@
+body {
+	background-color: white;
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: 'Helvetica', sans-serif;
+}
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	margin-top: 10px;
+	align-content: center;
+}
+.navbar-nav a {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: black
+	;
+	text-shadow: none !important;
+	letter-spacing: 1px;
+	transition: all 0.6s ease;
+	border-radius: 15px;
+}
+.navbar-nav a:hover {
+	background-color: rgba(255,255,255, 0.7) !important; 
+	color: darkgrey;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/477.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+/*Dropdown menu*/
+body {
+    background: white;
+}
+ 
+.clearfix:after {
+   
+    clear:both;
+}
+ 
+/*Menu Outline*/
+.menu-wrap {
+    width:100%;
+    
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+    font-color: black;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Helvetica', sans-serif;
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color: black;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color: grey;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*Top Level*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+
+ 
+/*Bottom Level*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background: white;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+    color: white;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background: white;
+}
+
+
+/*Splash Image section*/
+.splash {
+	padding-bottom: 30px;
+	height:100%;
+}
+.splash .my-bg {
+	background-image: url("../images/f4.jpg");
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.splash .content-holder {
+	height: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/*Projects Section*/
+.projects1 {
+	min-height: 100vh;
+	background-image: url("../images/paper3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.projects2 {
+	min-height: 100vh;
+	background-image: url("../images/paper3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.projects3 {
+	min-height: 100vh;
+	background-image: url("../images/paper3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.projects1 h1 {
+	background-color: black;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: 500px;
+}
+
+.projects2 h1 {
+	background-color: black;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: 500px;
+}
+
+.projects3 h1 {
+	background-color: black;
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: 500px;
+}
+
+.projects1 .header {
+	color: black;
+	margin-bottom: 60px;
+	margin-top: 120px;
+	text-align: center;
+}
+.projects2 .header {
+	color: black;
+	margin-bottom: 60px;
+	margin-top: 150px;
+	text-align: center;
+}
+.projects3 .header {
+	color: black;
+	margin-bottom: 60px;
+	margin-top: 150px;
+	text-align: center;
+}
+.project-item {
+	margin-bottom: 60px;
+	border-radius: 15px;
+	margin-left: 80px;
+}
+.project-item img {
+	width:100%;
+	height: 100%;
+}
+.project-item h2 {
+	color: black;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+}
+.project-item h3 {
+	color:black;
+	font-weight: bold;
+}
+
+.project-item p {
+	color: black;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 14px;
+}
+/*About Section*/
+
+.about {
+	min-height: 100vh;
+	background-image: url("../images/paper.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.about .content {
+	background-color: black;
+	padding: 20px 60px 45px;
+	border-radius: 10px;
+	
+}
+.about  h1 {
+	font-weight: 600;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	color: white;
+}
+.about p {
+	font-weight: 300;
+	font-size: 0.9em;
+	color: white;
+}
+.about p2 {
+	font-weight: 300;
+	font-size: 0.9em;
+	color: white;
+}
+
+/*Contact Selection*/
+
+.contact {
+	min-height: 100vh;
+	background-image: url("../images/paper.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.contact .content {
+	margin-top: 100px;
+}
+/* for the text border*/
+.black-contact {
+  height: 250px;
+  background-color: black;
+  padding: 20px 20px 10px 30px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-top: 200px;
+} 
+
+.black-contact p {
+  color: white;
+  font-size: 18px;
+  font-family: 'Helvetica', sans-serif;
+  position: relative;
+  font-weight: 100px;
+}
